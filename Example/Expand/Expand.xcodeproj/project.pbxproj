@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E8C9000119911F680088802F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8C9FFFF19911F680088802F /* InfoPlist.strings */; };
 		E8C9000319911F680088802F /* ExpandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C9000219911F680088802F /* ExpandTests.m */; };
+		E8C9000F1991274D0088802F /* SAExpandableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C9000E1991274D0088802F /* SAExpandableButton.m */; };
 		E8C9FFD819911F680088802F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C9FFD719911F680088802F /* Foundation.framework */; };
 		E8C9FFDA19911F680088802F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C9FFD919911F680088802F /* CoreGraphics.framework */; };
 		E8C9FFDC19911F680088802F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C9FFDB19911F680088802F /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* Begin PBXFileReference section */
 		E8C9000019911F680088802F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E8C9000219911F680088802F /* ExpandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandTests.m; sourceTree = "<group>"; };
+		E8C9000D1991274D0088802F /* SAExpandableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAExpandableButton.h; sourceTree = "<group>"; };
+		E8C9000E1991274D0088802F /* SAExpandableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAExpandableButton.m; sourceTree = "<group>"; };
 		E8C9FFD419911F680088802F /* Expand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C9FFD719911F680088802F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E8C9FFD919911F680088802F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8C9000C1991273E0088802F /* SAExpandableButton */ = {
+			isa = PBXGroup;
+			children = (
+				E8C9000D1991274D0088802F /* SAExpandableButton.h */,
+				E8C9000E1991274D0088802F /* SAExpandableButton.m */,
+			);
+			name = SAExpandableButton;
+			sourceTree = "<group>";
+		};
 		E8C9FFCB19911F680088802F = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +124,7 @@
 		E8C9FFDD19911F680088802F /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				E8C9000C1991273E0088802F /* SAExpandableButton */,
 				E8C9FFE619911F680088802F /* AppDelegate.h */,
 				E8C9FFE719911F680088802F /* AppDelegate.m */,
 				E8C9FFE919911F680088802F /* Main.storyboard */,
@@ -252,6 +265,7 @@
 				E8C9FFEE19911F680088802F /* ViewController.m in Sources */,
 				E8C9FFE819911F680088802F /* AppDelegate.m in Sources */,
 				E8C9FFE419911F680088802F /* main.m in Sources */,
+				E8C9000F1991274D0088802F /* SAExpandableButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
